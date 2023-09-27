@@ -1,0 +1,96 @@
+
+.form-create-employee {
+  padding: 8px 0 10px 0;
+  margin: auto;
+  width: 500px;
+  background-color: white;
+  box-shadow: 7px 8px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  border-radius: 10px
+}
+.form-create-employee input
+{
+  margin: 0 31px;
+  padding: 0 20px;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.2);
+  border: 1px solid #d0cece;
+  width: 400px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: rgba(201, 219, 234, 0.32);
+}
+label,
+.label-date-picker{
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 10px;
+  margin-left: 33px;
+  font-weight: 600;
+  color: #024457;
+}
+.address {
+  margin-top: 10px;
+}
+.title-legend-adress {
+  padding: 10px 20px 0 193px;
+  font-weight: 600;
+  text-decoration: underline;
+  color: #024457;
+}
+#state, #department {
+  padding: 6px;
+}
+#state{
+  margin-left: 102px;
+}
+#department {
+  margin-left: 146px;
+}
+.button-form {
+  position: absolute;
+  bottom: -75px;
+  left: 149px;
+  width: 189px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: rgba(77, 204, 73, 0.59);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.button-form:active {
+  transform: translateY(2px);
+  box-shadow: none;
+}
+.flex-form {
+  display: flex;
+}
+#input-invalid {
+  border: 2px solid #ed1818
+}
+.input-invalid {
+  border: 2px solid #ed1818!important;
+}
+#input-valid {
+  border: 2px solid #21a027
+}
+.input-valid {
+  border: 2px solid #21a027!important;
+}
+.error-message {
+  margin-top: 1rem;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-weight: 600;
+  color: #ed1818;
+}
+.label-error {
+  color: #ed1818;
+}
+.label-valid {
+  color: #21a027;
+}

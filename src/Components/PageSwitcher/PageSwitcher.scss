@@ -1,0 +1,39 @@
+.page-switcher-container {
+  display: flex;
+  color: #024457;
+  float: right;
+  text-align: right;
+  padding-top: 0.25em;
+}
+.page-switcher-container p:hover {
+  color: white !important;
+  border: 1px solid #167F92;
+  background: linear-gradient(to bottom, #167F92 0%, #024457 100%);
+}
+.page-switcher-container p {
+  box-sizing: border-box;
+  display: inline-block;
+  min-width: 1.5em;
+  padding: 0.5em 1em;
+  margin-left: 2px;
+  text-align: center;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+.button-disable {
+  cursor: default;
+  color: #167F92;
+  border: 1px solid transparent;
+  background: transparent;
+  box-shadow: none;
+  pointer-events: none;
+}
+.actuel-page-number {
+  color: #FFF !important;
+  border: 1px solid #167F92;
+  background: linear-gradient(to bottom, #fff 0%, #167F92 100%);
+  pointer-events: none;
+}
+.ect {
+  pointer-events: none;
+}

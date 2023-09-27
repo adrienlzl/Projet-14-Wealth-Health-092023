@@ -1,17 +1,18 @@
 import React from "react";
 import { NavLink } from 'react-router-dom';
+import "./Navlink.scss"
 
-function EmployeePageNavlink() {
+function EmployeeListNavlink() {
 
 
 
     return(
         <>
-            <NavLink exact={true.toString()} to="/employee" className="employee-list-navlink">
-                Create a new employee
+            <NavLink exact={true.toString()} to="/employeeList" className="employee-list-navlink">
+                View Current Employees
             </NavLink>
         </>
     )
 }
 
-export default EmployeePageNavlink
+export default EmployeeListNavlink

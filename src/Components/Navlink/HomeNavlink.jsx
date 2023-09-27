@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from 'react-router-dom';
+import "./Navlink.scss"
 
 function HomeNavlink() {
 
@@ -7,8 +8,8 @@ function HomeNavlink() {
 
     return(
         <>
-            <NavLink exact={true.toString()} to="/employee" className="home-navink">
-                Create a new employee
+            <NavLink exact={true.toString()} to="/" className="home-navlink">
+                HRnet
             </NavLink>
         </>
     )

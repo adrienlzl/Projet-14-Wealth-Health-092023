@@ -1,0 +1,26 @@
+.calendar-header {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.house-icon-calendar {
+  padding-top: 4px;
+  color: #979797;
+}
+.house-icon-calendar:hover{
+  color: #333;
+}
+.calendar-header-selection {
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.calendar-header-selection:hover {
+  text-decoration: underline;
+}
+.calendar-button:hover {
+  color: #333;
+}
+.react-datepicker__day:hover {
+  background-color: #ba7c07;
+  color: white;
+}

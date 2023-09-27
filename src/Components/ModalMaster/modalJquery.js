@@ -2,6 +2,8 @@
     A simple jQuery modal (http://github.com/kylefox/jquery-modal)
     Version 0.9.2
 */
+import jQuery from 'jquery';
+
 
 (function (factory) {
     // Making your jQuery plugin work better with npm tools

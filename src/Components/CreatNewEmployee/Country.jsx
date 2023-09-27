@@ -11,14 +11,6 @@ function Country({onSelectState  }) {
     }
     return (
         <>
-            <label htmlFor="state">State</label>
-            <select name="state"  className="select-from"  onChange={handleStateChange} value={stateCountry}>
-                {states.map((state) => (
-                    <option key={state.abbreviation} value={state.abbreviation}>
-                        {state.name}
-                    </option>
-                ))}
-            </select>
         </>
     )
 }
