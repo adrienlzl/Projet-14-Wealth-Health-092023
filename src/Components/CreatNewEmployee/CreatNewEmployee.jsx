@@ -14,13 +14,6 @@ function CreatNewEmployee() {
     const [errorBirthDay, setErrorBirthDay] = useState(false)
     const [startDateError, setStartDateError] = useState(false);
     const [isModalOpen, setIsModalOpen] = useState(false);
-    const openModal = () => {
-        setIsModalOpen(true);
-    };
-
-    const closeModal = () => {
-        setIsModalOpen(false);
-    };
     const formik = useFormik({
         initialValues: {
             firstName: "",
@@ -75,7 +68,8 @@ function CreatNewEmployee() {
             setStartDateError(false);
         }
     }
-
+    const closeModal = () => {
+    };
     return (
         <div className="creat-new-employee-contenaire">
             <form
@@ -232,7 +226,7 @@ function CreatNewEmployee() {
                     Save
                 </button>
             </form>
-            {isModalOpen && <ModalMaster closeModal={closeModal} />}
+            {isModalOpen && <ModalMaster closeModal={closeModal}/>}
         </div>
     );
 }

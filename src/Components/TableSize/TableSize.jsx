@@ -3,12 +3,14 @@ import "./TableSize.scss"
 
 
 function TableSize({onPageSizeChange}) {
+
     const [pageSize, setPageSize] = useState(10);
 
     const handlePageSizeChange = (event) => {
         const newSize = parseInt(event.target.value);
         setPageSize(newSize)
         onPageSizeChange(newSize);
+
     }
 
     return (

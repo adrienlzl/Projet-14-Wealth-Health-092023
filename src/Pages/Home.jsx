@@ -6,7 +6,7 @@ function Home() {
 
     return (
         <div className="home-contenaire">
-            <img src="/Logo01.jpg" alt="Logo wealth health" className="home-logo"/>
+            <img rel="preload" src="/Logo01.jpg" alt="Logo wealth health" className="home-logo"/>
         </div>
     )
 }
