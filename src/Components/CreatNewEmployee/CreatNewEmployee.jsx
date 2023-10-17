@@ -1,4 +1,4 @@
-import React, {useRef, useState, useEffect} from "react";
+import React, {useState} from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import "./CreatNewEmployee.scss";
@@ -87,6 +87,7 @@ function CreatNewEmployee() {
                     onChange={formik.handleChange}
                     onBlur={formik.handleBlur}
                     value={formik.values.firstName}
+                       aria-describedby="firstName-description"
                 />
 
                 <label htmlFor="lastName">Last Name</label>
@@ -104,6 +105,7 @@ function CreatNewEmployee() {
                     onChange={formik.handleChange}
                     onBlur={formik.handleBlur}
                     value={formik.values.lastName}
+                    aria-describedby="lastName-description"
                 />
 
                 <label htmlFor="dateOfBirth">Date of Birth</label>
@@ -139,6 +141,7 @@ function CreatNewEmployee() {
                         onChange={formik.handleChange}
                         onBlur={formik.handleBlur}
                         value={formik.values.street}
+                        aria-describedby="street-description"
                     />
 
                     <label htmlFor="city">City</label>
@@ -156,6 +159,7 @@ function CreatNewEmployee() {
                         onChange={formik.handleChange}
                         onBlur={formik.handleBlur}
                         value={formik.values.city}
+                        aria-describedby="city-description"
                     />
 
                     <label htmlFor="zipCode">Zip Code</label>
@@ -173,6 +177,7 @@ function CreatNewEmployee() {
                         onChange={formik.handleChange}
                         onBlur={formik.handleBlur}
                         value={formik.values.zipCode}
+                        aria-describedby="zipCode-description"
                     />
                 </div>
 
