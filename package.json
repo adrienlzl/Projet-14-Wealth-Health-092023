@@ -1,6 +1,9 @@
 {
   "name": "wealth-health-react",
   "version": "0.1.0",
+  "author": "Adrien LAZAILLE",
+  "description": "Final project of my training at OpenClassrooms, the modalMaster component is a React component converted from jQuery code. More information can be found in the readme",
+  "keywords": ["Final projet", "wealth", "health", "form", "react", "Jquery"],
   "private": true,
   "dependencies": {
     "@babel/preset-react": "^7.22.5",

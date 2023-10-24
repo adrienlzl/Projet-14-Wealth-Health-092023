@@ -68,8 +68,6 @@ function CreatNewEmployee() {
             setStartDateError(false);
         }
     }
-    const closeModal = () => {
-    };
     return (
         <div className="creat-new-employee-contenaire">
             <form
@@ -230,8 +228,15 @@ function CreatNewEmployee() {
                 <button type="submit" className="button-form" onClick={handleTestErrors}>
                     Save
                 </button>
+                <ModalMaster
+                    isOpen={isModalOpen}
+                    onClose={() => setIsModalOpen(false)}
+                    onExternalClick={() => setIsModalOpen(false)}
+                />
+
+
             </form>
-            {isModalOpen && <ModalMaster closeModal={closeModal}/>}
+
         </div>
     );
 }
